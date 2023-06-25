@@ -1,7 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-// https://learn.microsoft.com/en-us/dotnet/standard/generics/
-// https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-methods
-// https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-type-parameters
 
 using BenchmarkDotNet.Running;
 using Generics;
