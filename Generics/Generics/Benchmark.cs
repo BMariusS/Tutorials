@@ -16,7 +16,7 @@ public class Benchmark
         var arrayList = new ArrayList();
         for (var i = 0; i < Count; i++)
         {
-            arrayList.Add(new GenericClass<string>
+            arrayList.Add(new Generic<string>
             {
                 Property = "Generic class string"
             });
@@ -28,10 +28,10 @@ public class Benchmark
     [Benchmark]
     public string ListAdd()
     {
-        var list = new List<GenericClass<string>>();
+        var list = new List<Generic<string>>();
         for (var i = 0; i < Count; i++)
         {
-            list.Add(new GenericClass<string>
+            list.Add(new Generic<string>
             {
                 Property = "Generic class string"
             });

@@ -1,6 +1,6 @@
 ﻿namespace Generics;
 
-public class GenericClass<T>
+public class Generic<T>
 {
     public required T Property;
 
