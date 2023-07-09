@@ -15,8 +15,8 @@ public record CoordsRecordClass
     // public double X { get; set; }
     // public double Y { get; set; }
     
-    public double X { get; set; }
-    public double Y { get; set; }
+    public double X { get; init; }
+    public double Y { get; init; }
 }
 
 
